@@ -1,4 +1,4 @@
-package entidade.enums;
+package br.com.gerenciador.entidade.enums;
 
 public enum Prioridade {
 	ALTA("Alta"),
