@@ -23,7 +23,7 @@ public class Tarefa implements Serializable{
 	private String descricao;
 	private String responsavel;
 	private LocalDateTime deadLine;
-	private Enum<Prioridade> prioridade;
+	private String prioridade;
 	
 	
 	public String getTitulo() {
@@ -50,10 +50,10 @@ public class Tarefa implements Serializable{
 	public void setDeadLine(LocalDateTime deadLine) {
 		this.deadLine = deadLine;
 	}
-	public Enum<Prioridade> getPrioridade() {
+	public String getPrioridade() {
 		return prioridade;
 	}
-	public void setPrioridade(Enum<Prioridade> prioridade) {
+	public void setPrioridade(String prioridade) {
 		this.prioridade = prioridade;
 	}
 }
